@@ -1,0 +1,92 @@
+.estadisticas-container {
+    padding: 1rem;
+}
+
+/* Grid de tarjetas de estadísticas */
+.estadisticas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* Tarjeta individual */
+.estadisticas-card {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.estadisticas-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Número de la estadística */
+.estadisticas-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #70a1bf;
+    margin: 0;
+}
+
+/* Etiqueta de la estadística */
+.estadisticas-label {
+    color: #666;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+/* Contenedor de gráficos */
+.estadisticas-chart-container {
+    height: 300px;
+    margin-bottom: 2rem;
+}
+
+/* Título de gráficos */
+.estadisticas-chart-title {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* Estado de carga */
+.estadisticas-loading {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.1rem;
+    color: #666;
+}
+
+/* Mensaje de error */
+.estadisticas-error {
+    text-align: center;
+    padding: 2rem;
+    color: #5d056e;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .estadisticas-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.8rem;
+    }
+    
+    .estadisticas-chart-container {
+        height: 250px;
+    }
+    
+    .estadisticas-number {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .estadisticas-grid {
+        grid-template-columns: 1fr;
+    }
+}

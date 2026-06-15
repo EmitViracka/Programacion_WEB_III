@@ -1,0 +1,93 @@
+.registro-card {
+    max-width: 500px;
+}
+
+.registro-card .input-group {
+    margin-bottom: 1rem;
+}
+
+.password-strength {
+    margin-bottom: 1rem;
+}
+
+.strength-bar-container {
+    height: 6px;
+    background: #e0e0e0;
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 8px 0;
+}
+
+.strength-bar {
+    height: 100%;
+    transition: width 0.3s ease;
+}
+
+.strength-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.strength-level {
+    font-weight: bold;
+}
+
+.strength-message {
+    color: #666;
+}
+
+.strength-criterios {
+    font-size: 0.75rem;
+    text-align: left;
+    background: #f8f9fa;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.strength-criterios small {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.strength-criterios ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 5px 0 0;
+}
+
+.strength-criterios li {
+    padding: 3px 0;
+    font-size: 0.75rem;
+}
+
+.strength-criterios li.cumple {
+    color: #28a745;
+}
+
+.strength-criterios li.incumple {
+    color: #dc3545;
+}
+.success-message {
+    background: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 1rem;    
+}
+
+@media (max-width: 768px) {
+    .registro-card {
+        padding: 1.5rem;
+    }
+    
+    .strength-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

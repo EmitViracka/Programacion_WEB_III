@@ -1,0 +1,15 @@
+.btn-pdf-component {
+    background: #5d056e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+
+.btn-pdf-component:hover {
+    background: #5d056e;
+    transform: translateY(-2px);
+}

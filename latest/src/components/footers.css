@@ -1,0 +1,52 @@
+.footer-ofertas,
+.footer-servicio,
+.footer-contacto {
+    text-align: center;
+    padding: 3rem 2rem;
+    color: white;
+}
+
+.footer-ofertas {
+    background-color: #3386ff;
+}
+
+.footer-servicio {
+    background-color: #0d6efd;
+}
+
+.footer-contacto {
+    background-color: #0f59c6;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.footer-content p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+.icono-triste {
+    width: 80px;
+    margin-top: 1rem;
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .footer-ofertas,
+    .footer-servicio,
+    .footer-contacto {
+        padding: 2rem 1rem;
+    }
+    
+    .footer-content h2 {
+        font-size: 1.5rem;
+    }
+}
