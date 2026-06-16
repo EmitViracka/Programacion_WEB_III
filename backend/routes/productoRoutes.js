@@ -1,4 +1,3 @@
-// backend/routes/productoRoutes.js
 import express from 'express';
 import { 
     getProductos, 
